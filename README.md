@@ -3,6 +3,8 @@ Projeto de Fundamentos de Inteligência Artificial (FIA) por João Omar, Lucas A
 
 O projeto visa detectar animais em um vídeo de filmagem de trilha (como https://www.youtube.com/watch?v=m2Jg0Xq7mWo) e saber identificá-los.
 
+Para executar o código, é necessário criar um ambiente virtual e instalar as dependências.
+
 ## Configuração do Ambiente Virtual
 
 ### Passos para criar e ativar um ambiente virtual:
@@ -24,10 +26,10 @@ O projeto visa detectar animais em um vídeo de filmagem de trilha (como https:/
    No Windows:
 
    ```bash
-   ./env-trab/Scripts/activate
+   source ./env-trab/Scripts/activate
    ```
 
-# Instalação de Dependências
+## Instalação de Dependências
 
 Certifique-se de que seu ambiente virtual esteja ativado. Instale as dependências listadas no arquivo `requirements.txt`:
 
@@ -36,3 +38,11 @@ pip install -r requirements.txt
 ```
 
 Ao executar isto, serão instaladas as bibliotecas roboflow, superflow e opencv-python.
+
+## Desativação do Ambiente Virtual
+
+Quando terminar de trabalhar no projeto, você pode desativar o ambiente virtual com o comando:
+
+```bash
+deactivate
+```
