@@ -5,7 +5,10 @@ import cv2
 model = YOLO("yolov5su.pt")
 
 # Caminho do vídeo de entrada
-video_path = "videos/urso.mp4"
+video_path = "videos/bear.mp4"
+
+# Caminho do vídeo de saída
+# Mude o nome do arquivo para o qual você quiser
 output_path = "../VisaoComp-IA-2024/videos_output/bear_output.mp4"
 
 
@@ -37,7 +40,7 @@ while cap.isOpened():
     annotated_frame = results[0].plot()
 
     # Exibir o frame com detecções (opcional)
-    cv2.imshow("Detecções", annotated_frame)
+    cv2.imshow("Deteccoes", annotated_frame)
 
     # Escrever o frame anotado no arquivo de saída
     out.write(annotated_frame)

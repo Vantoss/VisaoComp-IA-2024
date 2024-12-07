@@ -3,6 +3,8 @@ Projeto de Fundamentos de Inteligência Artificial (FIA) por João Omar, Lucas A
 
 O projeto visa detectar e identificar em tempo real animais em vídeos.
 
+Os vídeos já processados pelo modelo podem ser visualizados na pasta videos_output
+
 Para executar o código, é necessário criar um ambiente virtual e instalar as dependências.
 
 ## Configuração do Ambiente Virtual
