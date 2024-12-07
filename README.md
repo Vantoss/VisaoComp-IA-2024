@@ -1,7 +1,7 @@
 # Projeto de Visão Computacional - Detecção de Animais
 Projeto de Fundamentos de Inteligência Artificial (FIA) por João Omar, Lucas Acunha e Nicholas Knopp.
 
-O projeto visa detectar animais em um vídeo de filmagem de trilha (como https://www.youtube.com/watch?v=m2Jg0Xq7mWo) e saber identificá-los.
+O projeto visa detectar animais em vídeos e saber identificá-los.
 
 Para executar o código, é necessário criar um ambiente virtual e instalar as dependências.
 
@@ -37,7 +37,7 @@ Certifique-se de que seu ambiente virtual esteja ativado. Instale as dependênci
 pip install -r requirements.txt
 ```
 
-Ao executar isto, serão instaladas as bibliotecas roboflow, superflow e opencv-python.
+Ao executar isto, serão instaladas as bibliotecas opencv-python, numpy e ultralytics.
 
 ## Desativação do Ambiente Virtual
 
