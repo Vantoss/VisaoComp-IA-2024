@@ -1,7 +1,7 @@
 # Projeto de Visão Computacional - Detecção de Animais
 Projeto de Fundamentos de Inteligência Artificial (FIA) por João Omar, Lucas Acunha e Nicholas Knopp.
 
-O projeto visa detectar animais em vídeos e saber identificá-los.
+O projeto visa detectar e identificar em tempo real animais em vídeos.
 
 Para executar o código, é necessário criar um ambiente virtual e instalar as dependências.
 
